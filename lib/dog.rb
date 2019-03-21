@@ -8,15 +8,11 @@ def initialize(name)
 end
 
 def self.all
-  @@all << self
+  @@all
 end
 
 def self.clear_all
 @@all.clear
-end
-
-def self.all
-return @@all
 end
 
 
