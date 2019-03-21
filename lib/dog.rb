@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all.each do |dog|
+  puts @@all.map do |dog|
     dog.name
   end
 end
