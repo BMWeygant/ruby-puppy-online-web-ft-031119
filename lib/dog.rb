@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all
+  puts @@all.each
 end
 
 def self.clear_all
