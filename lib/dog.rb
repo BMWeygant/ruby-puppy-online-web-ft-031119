@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all.map binding.pry{ |dog| dog.name }
+  puts @@all.map { |dog| binding.pry dog.name }
 end
 
 def self.clear_all
