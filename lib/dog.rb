@@ -8,7 +8,8 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all.each
+  puts @@all.each do |dog|
+  end
 end
 
 def self.clear_all
