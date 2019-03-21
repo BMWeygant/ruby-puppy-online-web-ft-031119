@@ -15,8 +15,8 @@ def self.clear_all
 @@all.clear
 end
 
-def self.name
-
+def self.all
+@@all
 end
 
 
