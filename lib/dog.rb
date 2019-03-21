@@ -11,6 +11,7 @@ end
 def self.all
   @@all.map do |dog|
     binding.pry
+    dog
   end
 end
 
