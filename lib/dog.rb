@@ -16,7 +16,7 @@ def self.clear_all
 end
 
 def self.all
-@@all
+return @@all
 end
 
 
