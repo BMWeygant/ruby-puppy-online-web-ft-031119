@@ -11,8 +11,8 @@ def self.all
   @@all << self
 end
 
-def self.clear_all(array)
-self.clear
+def self.clear_all
+@@all.clear
 end
 
 def self.name
