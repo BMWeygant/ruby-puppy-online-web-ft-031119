@@ -12,7 +12,7 @@ def self.all
 end
 
 def self.clear_all(array)
-array.clear
+self.clear
 end
 
 def self.name
