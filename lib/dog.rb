@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def self.all
-  @@all.each {@@all}
+  @@all.map {|dog| }
 end
 
 def self.clear_all
