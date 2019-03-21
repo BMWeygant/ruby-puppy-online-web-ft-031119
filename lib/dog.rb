@@ -6,9 +6,8 @@ def self.all
   @@all << self
 end
 
-def self.clear_all
-self.clear
-@@all << self
+def self.clear_all(array)
+array.clear
 end
 
 def self.name
