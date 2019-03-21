@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all.map { |dog| dog.name }
+  puts @@all.map do |dog| dog.name end
 end
 
 def self.clear_all
