@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def self.all
-  @@all.map {|dog| }
+  @@all.map {|dog| binding.pry }
 end
 
 def self.clear_all
