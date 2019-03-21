@@ -11,7 +11,7 @@ end
 def self.all
   @@all.map do |dog|
     binding.pry
-    emd
+  end
 end
 
 def self.clear_all
